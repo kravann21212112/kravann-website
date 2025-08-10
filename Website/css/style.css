@@ -1,0 +1,372 @@
+body{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+.link-header{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+ul li a{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+li{
+    list-style: none;
+}
+
+.Get-started{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.Get-started:hover{
+    box-shadow: rgba(0, 0, 0, 1) 0px 3px 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.black-information{
+    background-color: black;
+    color: white;
+    padding: 80px;
+    display: flex; 
+    gap: 100px;
+    justify-content: space-between;
+}
+.main-card-dedicated{
+    width: 600px;
+}
+.dedicated-icon{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+.main-card-form{
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    width: 500px;
+    border-radius: 32px;
+    height: 75vh;   
+}
+.main-card-form input{
+    padding: 20px ;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 3px 8px;
+    border: solid rgb(235, 235, 235) 0.1px;
+    width: auto;
+    margin-top: 10px;
+}
+label{
+    color: black;
+    padding:0px 5px ;
+}
+
+input{
+    border-radius: 16px;
+    border: solid rgb(235, 235, 235) 0.1px;
+    width: auto;
+    
+}
+input:hover{
+    border: solid 0.1px blue;
+}
+.name,
+.email-phone,
+.company-role{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    
+
+}
+.Get{
+    color: white;
+    background-color: red;
+    padding: 20px;
+    border-radius: 32px;
+    width: auto;
+    margin:30px 15px;
+    text-align: center;
+}
+.Get:hover{
+    background-color: rgb(0, 0, 0);
+}
+.Get-b{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: solid white;
+}
+.Trusted-header{
+    text-align: center;
+}
+.card-header{
+    display: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-right{
+    padding:0px 50px;
+    width: 300px;
+    margin: 40px 0px;
+}
+.card-center{
+    margin: 40px 0px;
+    padding:0px 70px ;
+    width: 300px;
+    border-left: solid rgb(190, 190, 190) 0.1px;
+    border-right: solid rgb(190, 190, 190) 0.1px;
+}
+.card-left{
+    margin: 40px 0px;
+    padding:0px 50px;
+    width: 300px;
+}
+.Master-Yoda{
+    padding: 75px 0px 0px ;
+}
+.Master {
+    padding: 55px 0px 0px;
+}
+.card-footer{
+    padding:100px 50px;
+    display: flex;
+    gap: 60px;
+}
+.main-card-dedicated-footer{
+    padding: 0px 0px 0px 50px;
+    display: flex;
+    gap: 150px;
+   
+    
+}
+.dedicated-right{
+    width: 600px;
+    padding: 50px 20px;
+}
+.girl{
+    margin: -50px 0px;
+    width: 600px;
+}
+
+.Get-a{
+    background-color: red;
+    padding: 15px;
+}
+
+.Get-b{
+    padding: 15px;
+    border: solid gray 0.1px;
+    border-radius: 32px;
+}
+.get-right-left{
+    padding: 50px 0px;
+    display: flex;
+    gap: 20px;
+}
+.Our {
+    text-align: center;
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.number-right{
+    padding: 50px;
+    width: 350px;
+    text-align: center;
+}
+.number-center{
+    padding: 50px ;
+    width: 350px;
+    text-align: center;
+}
+.number-left{
+    padding: 50px ;
+    width: 350px;
+    text-align: center;
+}
+.num-1{
+    padding: 50px;
+    width: 50px;
+    background-color: rgb(240, 215, 215);
+    border-radius: 180px;
+    text-align: center;
+    color: red;
+    margin: auto;
+}
+.num-2{
+    padding: 50px;
+    width: 50px;
+    background-color: rgb(240, 215, 215);
+    border-radius: 180px;
+    text-align: center;
+    color: red;
+    margin: auto;
+}
+.num-3{
+    padding: 50px;
+    width: 50px;
+    background-color: rgb(240, 215, 215);
+    border-radius: 180px;
+    text-align: center;
+    color: red;
+    margin: auto;
+}
+.Browse{
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+
+.card-inf-1,
+.card-inf-2,
+.card-inf-3,
+.card-inf-4{
+    padding: 25px 50px;
+    width: 460px;
+    border: solid 0.1px rgb(231, 231, 231);
+    border-radius: 32px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 3px 8px;
+    
+}
+
+
+
+.card-inf-1{
+    display: flex;
+    gap: 10px;
+}
+.card-footer-header{
+   
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-footer-right{
+    animation: moveup 2.5s linear forwards;
+    padding:130px 50px;
+}
+.fa-microchip{
+    padding: 15px 15px 0px;
+    background-color: rgb(211, 238, 250);
+    border-radius: 16px;
+    height: 8vh;
+}
+.fa-laptop{
+    padding: 15px 15px 0px;
+    background-color: rgb(211, 238, 250);
+    border-radius: 16px;
+    height: 8vh;
+}
+.fa-users{
+    padding: 15px 15px 0px;
+    background-color: rgb(211, 238, 250);
+    border-radius: 16px;
+    height: 8vh;
+}
+.fa-cog{
+    padding: 15px 15px 0px;
+    background-color: rgb(211, 238, 250);
+    border-radius: 16px;
+    height: 8vh;
+ 
+}
+.card-footer{
+    width: 470px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+.card-footer:hover{
+    background-color: rgb(212, 225, 241);
+    
+}
+
+.footer-black{
+    padding: 50px;
+    background-color: black;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+.footer-white{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+.footer-white-card-1{
+    width: 130px;
+    display: flex;
+    align-items: end;
+}
+.footer-white-card-2{
+    width: 150px;
+}
+.footer-white-card-3{
+    width: 90px;
+}
+.footer-white-card-4{
+    width: 230px;
+}
+.footer-white-card-5{
+    width: 150px;
+}
+.language{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.footer-footer{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.new{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+summary {
+    list-style: none;
+    cursor: pointer;
+   
+  
+    
+}
+.Plus{
+    display: flex;
+    justify-content: end;
+}
+
+
